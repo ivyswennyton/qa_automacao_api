@@ -14,4 +14,4 @@ Cada funcionalidade possui sua própria tag.
 
 ### Exemplo de Execução
 
-cucumber -t
+cucumber -t @tag-example
