@@ -12,7 +12,7 @@ Cenario: Criar resgistro test sem email
 @registro
 Cenario: Criar resgistro test
 	Quando criar resgistro test "eve.holt@reqres.in" com senha "pistol"
-	Entao a API deve retornar o codigo 201
+	Entao a API deve retornar o codigo 200
 @usuario
 Cenario: Delterar user test
 	Quando criar user test "ivys" com emprego "qa"

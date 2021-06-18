@@ -6,6 +6,8 @@ Repositório de testes automatizados services.
 ### Local
 - Ruby 2.7.1
 - Gem Bundler
+## Instalando dependencias 
+bundle install
 
 ## Executando os testes
 cucumber

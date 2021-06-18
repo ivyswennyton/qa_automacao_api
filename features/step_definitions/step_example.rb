@@ -20,6 +20,7 @@ Quando('deletar o user criado') do
 end
 
 Entao('deve nao encontrar o user criado') do
-  @result = @page.user_consult(@id)
-  expect(@result.code).to eq(404)
+  result = @page.user_consult(@id)
+  
+  expect(result.code).to eq(404)
 end
